@@ -17,6 +17,7 @@ This is a sample unity facebook application that use App42 Social Service to get
 5. Use api-key and secret-key to get profile and facebook friends using App42UnitySDk.
 6. Add App42FbSample.cs file on MainCamera if not added.
 7. Build your unity Android application and run it on your android device.
+8. You can also modify Android Facebook library accordingly and place library jar in your Android Plugin Folder of Unity.
 
 
 # Design Details:
@@ -31,7 +32,7 @@ App42Fb.authorizeFacebook (FbAppId,prmissions);
 App42Fb.authorizeFacebook (FbAppId);
 
 ```
-__Set App42FbListener to get Access Token or Error__Set App42FbListener to get AccessToken or error fro facebook while Authorizing .
+__Set App42FbListener to get Access Token or Error__ Set App42FbListener to get AccessToken or error fro facebook while Authorizing .
  
 ```
 App42Fb.setApp42FbListener (this);
