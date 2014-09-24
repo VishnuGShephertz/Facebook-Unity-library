@@ -8,6 +8,7 @@ App42 Facebook unity library for Android application.
 
 # Running Sample
 This is a sample unity facebook application that use App42 Social Service to get facebook friends and your profile.
+
 1. [Register\Login] (https://apphq.shephertz.com/register) with App42 platform and create an app from App Manager Tab. 
 2. [Download project] (https://github.com/VishnuGShephertz/Facebook-Unity-library/archive/master.zip) and unzip it.
 3. Open project in Unity.
