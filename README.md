@@ -48,5 +48,11 @@ public void onFbToken (String accessToken)
 	}
 
 ```
+__Add AuthActivity in AndroidManifest.xml file__ Add AuthActivity in AndroidManifest.xml of Assets/plugins/Android folder of unity project.
+ 
+```
+ <activity android:name="com.app42.fb.unity.AuthActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:screenOrientation="portrait">
+    </activity>
 
+```
 
